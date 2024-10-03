@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Administracción de productos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>Cell-Land</h1>
+            <img src="image.png" alt="Icono">
+        </div>
+        <hr class="linea"/>
+
+        <h2 class="titulo-central">Administración de productos</h2>
+
+        <table id="tabla-datos">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Modelo</th>
+                    <th>Color</th>
+                    <th>Almacenamiento</th>
+                    <th>Procesador</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla">
+            </tbody>
+        </table>
+
+        <div class="consulta">
+            <h4>Consultar artículo</h4>
+            <input type="number" id="txtConsulta" placeholder="Ingrese su ID">
+            <button onclick="consultarUno()">Consultar</button>
+
+            <div class="resultado">
+                <label for="consultaNombre">Nombre:</label>
+                <textarea id="consultaNombre" rows="1" cols="30"></textarea>
+                <label for="consultaModelo">Modelo:</label>
+                <textarea id="consultaModelo" rows="1" cols="30"></textarea>
+                <label for="consultaColor">Color:</label>
+                <textarea id="consultaColor" rows="1" cols="30"></textarea>
+                <label for="consultaAlmacenamiento">Almacenamiento:</label>
+                <textarea id="consultaAlmacenamiento" rows="1" cols="30"></textarea>
+                <label for="consultaProcesador">Procesador:</label>
+                <textarea id="consultaProcesador" rows="1" cols="30"></textarea>
+
+                <button onclick="modificarUno()">Modificar</button>
+                <button onclick="eliminarUno()">Eliminar</button>
+            </div>
+        </div>
+
+        <div class="agregar">
+            <h4>Agregar artículo</h4>
+            <input type="text" id="inputMarca" placeholder="Id">
+            <input type="text" id="inputModelo" placeholder="Modelo">
+            <input type="text" id="inputColor" placeholder="Color">
+            <input type="text" id="inputAlmacenamiento" placeholder="Almacenamiento (GB)">
+            <input type="text" id="inputProcesador" placeholder="Procesador">
+            <button onclick="agregarUno()">Agregar Nuevo</button>
+        </div>
+    </div>
+
+    <script src="mai.js"></script>
+</body>
+</html>

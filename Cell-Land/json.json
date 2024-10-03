@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "modelo": "Inspiron 15",
+        "color": "Negro",
+        "almacenamiento": "512 GB SSD",
+        "procesador": "Intel Core i5"
+    },
+    {
+        "id": "2",
+        "modelo": "Pavilion x360",
+        "color": "Plata",
+        "almacenamiento": "1 TB HDD",
+        "procesador": "Intel Core i7"
+    },
+    {
+        "id": "3",
+        "modelo": "MacBook Air",
+        "color": "Dorado",
+        "almacenamiento": "256 GB SSD",
+        "procesador": "Apple M1"
+    },
+    {
+        "id": "4",
+        "modelo": "Aspire 5",
+        "color": "Negro",
+        "almacenamiento": "1 TB SSD",
+        "procesador": "AMD Ryzen 5"
+    },
+    {
+        "id": "5",
+        "modelo": "Yoga 7i",
+        "color": "Gris",
+        "almacenamiento": "512 GB SSD",
+        "procesador": "Intel Core i7"
+    },
+    {
+        "id": "6",
+        "modelo": "ZenBook 14",
+        "color": "Azul",
+        "almacenamiento": "1 TB SSD",
+        "procesador": "Intel Core i5"
+    },
+    {
+        "id": "7",
+        "modelo": "Legion 5",
+        "color": "Negro",
+        "almacenamiento": "512 GB SSD",
+        "procesador": "AMD Ryzen 7"
+    },
+    {
+        "id": "8",
+        "modelo": "Chromebook 14",
+        "color": "Blanco",
+        "almacenamiento": "64 GB eMMC",
+        "procesador": "Intel Celeron"
+    },
+    {
+        "id": "9",
+        "modelo": "Surface Laptop 4",
+        "color": "Platino",
+        "almacenamiento": "512 GB SSD",
+        "procesador": "Intel Core i5"
+    },
+    {
+        "id": "10",
+        "modelo": "Razer Blade 15",
+        "color": "Negro",
+        "almacenamiento": "1 TB SSD",
+        "procesador": "Intel Core i7"
+    },
+    {
+        "id": "11",
+        "modelo": "Swift 3",
+        "color": "Oro",
+        "almacenamiento": "256 GB SSD",
+        "procesador": "Intel Core i5"
+    },
+    {
+        "id": "12",
+        "modelo": "Dell XPS 13",
+        "color": "Blanco",
+        "almacenamiento": "512 GB SSD",
+        "procesador": "Intel Core i7"
+    },
+    {
+        "id": "13",
+        "modelo": "HP Envy 13",
+        "color": "Negro",
+        "almacenamiento": "1 TB SSD",
+        "procesador": "Intel Core i7"
+    }
+]
